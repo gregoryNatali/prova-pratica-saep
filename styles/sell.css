@@ -1,0 +1,44 @@
+#sell-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+#selects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#selects-container select {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+}
+
+.sell-button {
+  max-width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 0.25rem;
+  background-color: #7814FF;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease;
+  padding: 2rem 3rem;
+  color: #fff;
+}
+
+.sell-button p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.sell-button:hover {
+  transform: translateY(2px);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+}

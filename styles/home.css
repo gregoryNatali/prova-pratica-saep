@@ -1,0 +1,65 @@
+#home-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: #000;
+}
+
+.list a li {
+  padding: 0.5rem;
+}
+
+.empty-list-item {
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease;
+  padding: 2rem;
+}
+
+.empty-list-item:hover {
+  transform: translateY(2px);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.empty-list-item p {
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 0.25rem;
+  background-color: #0000FF;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease;
+  padding: 2rem;
+  color: #fff;
+}
+
+.list-item p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.list-item:hover {
+  transform: translateY(2px);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+}
